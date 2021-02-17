@@ -21,6 +21,9 @@ $footerHeader:#919496;
             position: fixed;
             z-index: 999;
             background: $lightblack;
+            img{
+                object-fit: contain;
+            }
             li{
                 list-style: none;
                 font-size: 18px;
